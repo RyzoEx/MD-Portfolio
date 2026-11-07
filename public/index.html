@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>M/D Portfolio — дизайн і відеомонтаж</title>
+<meta name="description" content="M/D Portfolio — картки товару, візитки та відеомонтаж. Два портфоліо в одному місці.">
+<meta property="og:title" content="M/D Portfolio — дизайн і відеомонтаж">
+<meta property="og:description" content="Картки товару, візитки та відеомонтаж. Два портфоліо.">
+<meta property="og:site_name" content="M/D Portfolio">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uk_UA">
+<meta name="theme-color" content="#f4f4f4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230b0b0c'/%3E%3Crect x='15' y='4' width='2' height='24' fill='%23c6ff3d' transform='rotate(20 16 16)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js")</script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<div class="ring" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="mark" href="#top" aria-label="M/D Portfolio — на початок">M/D Portfolio</a>
+  <nav aria-label="Навігація">
+    <a href="#max">Макс</a>
+    <a href="#danya">Даня</a>
+    <a href="#contact">Контакти</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="split" aria-label="Вибір портфоліо">
+    <a class="half lite" href="#max">
+      <span class="tag">Портфоліо 01</span>
+      <b class="glyph" aria-hidden="true">M</b>
+      <span class="who-line"><strong>Макс</strong><em>Відеомонтаж · картки · візитки</em></span>
+      <i class="go" aria-hidden="true">↓</i>
+    </a>
+    <a class="half dark" href="#danya">
+      <span class="tag">Портфоліо 02</span>
+      <b class="glyph" aria-hidden="true">D</b>
+      <span class="who-line"><strong>Даня</strong><em>Картки товару · візитки</em></span>
+      <i class="go" aria-hidden="true">↓</i>
+    </a>
+    <p class="tagline">Картки товару · візитки · відеомонтаж</p>
+  </section>
+
+  <section class="who">
+    <p class="kicker" data-reveal>Хто ми</p>
+    <p class="scrub">Ми — двоє молодих креаторів: робимо картки товару, візитки та монтуємо відео, і починаємо фріланс разом. Хочемо рости, брати цікаві проєкти, чесно працювати з клієнтами та ставати кращими з кожною роботою.</p>
+  </section>
+
+  <section id="max" class="panel lite">
+    <div class="wrap">
+      <p class="kicker">M / 01 · Портфоліо</p>
+      <h2 class="name rise"><span>Макс</span></h2>
+      <div class="cols">
+        <div class="bio" data-reveal>
+          <p class="role">Відеомонтажер · дизайнер</p>
+          <p>Монтую відео та роблю дизайн: картки товару й візитки. Рух, ритм і композиція з монтажу допомагають робити роботи, які тримають погляд.</p>
+          <ul class="tools" aria-label="Інструменти">
+            <li>After Effects</li><li>CapCut</li><li>Premiere Pro</li>
+          </ul>
+        </div>
+        <div class="stats" data-reveal>
+          <div><b data-count="3">0</b><small>роки у відеомонтажі</small></div>
+          <div><b data-count="2">0</b><small>роки у дизайні</small></div>
+        </div>
+      </div>
+      <p class="kicker sub" data-reveal>Роботи</p>
+      <div class="gallery" data-folder="MaxProjects"></div>
+    </div>
+  </section>
+
+  <section id="danya" class="panel dark">
+    <div class="wrap">
+      <p class="kicker">D / 02 · Портфоліо</p>
+      <h2 class="name rise"><span>Даня</span></h2>
+      <div class="cols">
+        <div class="bio" data-reveal>
+          <p class="role">Дизайнер · картки товару, візитки</p>
+          <p>Роблю дизайн: картки товару для інтернет-магазинів і візитки. Щодня практикуюсь і росту з кожною новою роботою.</p>
+        </div>
+        <div class="stats" data-reveal>
+          <div><b data-count="1">0</b><small>рік у дизайні</small></div>
+        </div>
+      </div>
+      <p class="kicker sub" data-reveal>Роботи</p>
+      <div class="gallery" data-folder="DanyaProjects"></div>
+    </div>
+  </section>
+
+  <section id="services" class="panel lite">
+    <div class="wrap">
+      <p class="kicker" data-reveal>Що робимо</p>
+      <ol class="rows">
+        <li data-reveal><span>01</span><h3>Картки товару для маркетплейсів</h3><p>Головне фото та слайди з інфографікою, які швидко пояснюють, що це за товар.</p></li>
+        <li data-reveal><span>02</span><h3>Візитки</h3><p>Чистий дизайн візитки, який легко запам'ятати і готовий до друку.</p></li>
+        <li data-reveal><span>03</span><h3>Відеомонтаж</h3><p>Монтаж, рух і ритм: ролики, які тримають увагу до кінця.</p></li>
+        <li data-reveal><span>04</span><h3>Редизайн наявних робіт</h3><p>Оновлюємо картки та візитки, які вже є, і робимо їх акуратнішими.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact" class="panel dark contact">
+    <div class="wrap">
+      <p class="kicker" data-reveal>Контакти</p>
+      <p class="big" data-reveal>Є товар і потрібна картка? Напишіть нам.</p>
+      <ul class="links" data-reveal>
+        <li><a href="https://t.me/8581300025" target="_blank" rel="noopener"><span>Telegram · Макс</span><b>@nekorimnas</b></a></li>
+        <li><a href="https://t.me/kosmycheskiy" target="_blank" rel="noopener"><span>Telegram · Даня</span><b>@kosmycheskiy</b></a></li>
+        <li><a href="mailto:slxshop@meta.ua"><span>Пошта</span><b>slxshop@meta.ua</b></a></li>
+      </ul>
+      <p class="foot"><span>M/D Portfolio</span><span>Картки товару</span></p>
+    </div>
+  </section>
+</main>
+
+<dialog id="lb" aria-label="Перегляд роботи">
+  <button class="lb-x" type="button" aria-label="Закрити">Закрити</button>
+  <button class="lb-n prev" type="button" aria-label="Попередня">←</button>
+  <figure><img alt=""><video controls playsinline hidden></video><figcaption></figcaption></figure>
+  <button class="lb-n next" type="button" aria-label="Наступна">→</button>
+</dialog>
+</body>
+</html>

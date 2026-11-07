@@ -1,0 +1,8 @@
+{
+  "name": "maks-danya-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-projects.mjs",
+    "dev": "node scripts/build-projects.mjs && npx serve public"
+  }
+}
